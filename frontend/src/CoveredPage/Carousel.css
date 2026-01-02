@@ -1,0 +1,63 @@
+.carousel {
+  position: relative;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.track {
+  display: flex;
+  /* width: 100%; */
+}
+
+.track img {
+  width: 100%;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+
+/* Navigation */
+.nave {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.5);
+  color: white;
+  border: none;
+  font-size: 2rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.prev { left: 10px; }
+.next { right: 10px; }
+
+/* Dots */
+.dots {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 8px;
+}
+
+.dots button {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: none;
+  background: rgba(255,255,255,0.5);
+  cursor: pointer;
+}
+
+.dots button.active {
+  background: white;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .nave {
+    font-size: 1.5rem;
+  }
+}

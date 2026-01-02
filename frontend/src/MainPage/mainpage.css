@@ -1,0 +1,200 @@
+.top-banner {
+ background-image: url( https://ng.jumia.is/cms/0-1-weekly-cps/0-2025/Awoof-deals/AOTM-brands-top-strip_JULY.gif);
+  height: 60px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+.top-nav {
+    height: 40px;
+    background-color:rgb(241, 238, 238);
+}
+
+.navber {
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sallll {
+    /* background-color: red; */
+    padding-top: 5px ;
+}
+
+.sall {
+    color: #fd7e14;
+    font-size: 13px;
+    text-decoration: none;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.sall:hover{
+    text-decoration: underline;
+}
+
+.icon{
+    width: 6%;
+    margin-right: 5px;
+    margin-bottom: 4px;
+}
+
+/* .navbar-item {
+    display: flex;
+} */
+
+.nav-image {
+    /* margin-bottom: 100px !important; */
+    /* background-color: red;     */
+    margin:0 auto ;
+    width: 30%;
+    height: auto;
+}
+
+.nav-image img {
+    margin-right: 12px;
+    cursor: pointer;
+}
+
+.special-nav {
+    height: 80px;
+    position: sticky;
+    top: 0;
+    background: white;
+    z-index: 100;
+}
+
+.special-navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/* @media (max-width: 1200px) {
+    
+   .navbar-collapse {
+    background-color: black;
+    color: white;
+}
+
+} */
+
+.nav-im {
+    width: 24vh;
+}
+.special-form {
+    margin-left: 50px;
+    width: 100%;
+    border: 5px dashed orchid;
+}
+
+.special-input {
+    /* width: 520px; */
+    width: 100%;
+    padding-left: 30px;
+}
+
+form{
+    position: relative;
+}
+
+form span {
+    position: absolute;
+    left: 6px;
+    top: 7px;
+}
+
+.special-btn {
+    background-color: #fd7e14;
+    color: white;
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.45);
+}
+.special-btn:hover {
+    background-color: #ee7b1d;
+    color: white;
+}
+
+@media (max-width: 1200px) {
+    .nav-im {
+        width: 40%;
+    }
+
+    .special-form {
+        width: 80%;
+    }
+    
+    form span {
+     font-size: clamp(5px,1.5cqi,20px); 
+     }
+    
+     .special-input {
+    width: 70%;
+    padding-left: 30px;
+    font-size: clamp(5px,1.5cqi,20px);  
+    height: 100%;
+}    
+    .special-btn {
+      font-size: clamp(5px,1.5cqi,20px);
+    }
+}
+
+.special{
+    width: 60%;
+    justify-content: end;
+}
+
+@media (max-width: 1200px) {
+    .special{
+        width: 100%;
+    }
+}
+
+.nav-item span {
+    margin-right: 8px;
+    font-size: 20px;
+}
+
+.nav-item a:hover {
+    color: #fd7e14;
+}
+
+.nav-item a:active {
+    background-color: rgb(153, 148, 148);
+}
+
+.drop-btn {
+    background-color: #fd7e14;
+    color: white;
+    width: 100%;
+    border: none;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.nav-num {
+    position: relative;
+}
+
+.cart-number {
+    position: absolute;
+    top: -4px;
+    right:0;
+    background-color: #fd7e14;
+    color: white;
+    border-radius:50%;
+    font-size: 10px;
+    padding: 0 5px;
+}
+
+@media  (max-width: 1200px) {
+     .nav-item{
+        font-size: 11.6px ;
+     }
+     
+     .navbar-collapse {
+        background-color:rgba(0, 255, 128, 0.836);
+        backdrop-filter: blur(3px); 
+    }
+}

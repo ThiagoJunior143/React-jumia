@@ -1,0 +1,331 @@
+.covered{
+    /* height: 1100px; */
+    /* background-image: url(https://ng.jumia.is/cms/0-1-weekly-cps/0-2025/Brand_day/July/11th-July/BG-1920x1410.jpg); */
+    background-image: url(/Images/jumia-background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-color:#ee7b1d;
+    height: auto;
+    padding-bottom: 15px;
+}
+
+.items {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    border: 8px dashed green;
+    container-type: inline-size; 
+    
+}
+
+#first {
+    width: 18%;
+    border-radius: 5px;
+}
+
+#second {
+    /* border: 10px dashed yellow; */
+    max-width: 62%;
+    border-radius: 5px;
+}
+
+.carousel-inner {
+    width: 100%;
+}
+
+.carousel-inner img {
+    width: 100%;
+    /* max-height: 40vh;
+    min-height: 15vh; */
+    object-fit: cover; 
+}
+@media (max-width: 1200px) {
+    #first {
+        min-width: 22%;
+    }
+
+    #second {
+        max-width: 75%;
+        border: dashed 5px red;    
+    }
+}
+
+@media (max-width:800px) {
+    #first{
+        display: none;
+    }
+
+    #second {
+        max-width: 100%;
+    }
+}
+
+
+.sales{
+    background-color: white;
+    width:100%;
+    /* padding: 3px 30px 3px 15px; */
+    border-radius: 5px;  
+    padding-left: 10px;
+}
+
+.sales li {
+    list-style: none;
+    margin: 5px 0 9.88px 0;
+    text-align: start;
+}
+
+.sales li a{
+    text-decoration: none;
+    color: rgb(71, 71, 71);
+    font-size: 12px;
+}
+
+.sales li a:hover{
+    color: #fd7e14;
+}
+
+.sales li a span {
+    /* background-color: red; */
+    margin-right: 6px;
+    font-size: 16px;
+}
+
+#disappear {
+    /* border: 5px dashed blueviolet; */
+    width: 18%;
+}
+
+.call {
+    background-color: white;
+    height: 184.36px;
+    border-radius: 5px;
+    /* padding: 10px 20px; */
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.call h4 {
+    /* font-size: 15px; */
+    font-size: 10px;
+    margin-bottom: 0;
+    margin-left: 5px;
+}
+
+.call p {
+    font-size: 10px;
+    margin-top: 0;
+    margin-left: 5px;
+}
+
+.call img {
+    width: 22%;
+}
+
+.call h3{
+   /* font-size: 15px;  */
+   font-size: 12px;
+   margin-bottom: 0;
+   margin-top: 10px;
+   margin-left: 5px;
+}
+
+.call-item {
+    display: flex;
+    /* justify-content: space-between; */
+    margin-bottom: 30px;
+    height: 35px;
+}
+
+.third {
+   margin-top: 16px;
+   /* border: 5px dashed yellow; */
+}
+
+.third img {
+    border-radius: 5px;
+    width: 100%;
+}
+
+@media (max-width: 1200px) {
+    #disappear {
+        display: none;
+    }   
+}
+ 
+@container (max-width: 800px) {
+    .sales,.sales li a span{
+        font-size:1.48cqi;
+    }
+ }   
+
+.items-grid {
+    max-height: 170px;
+    background-color:white;
+    border-radius: 5px;
+    margin-top: 10px;
+    container-type: inline-size;
+}
+
+.gride {
+    padding-top:10px ;   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: red;  */
+}
+
+.gride img {
+    width:95%;
+}
+
+.grid-img {
+    display: flex;
+    margin-left: 10px; 
+}
+
+.grid-card {
+    cursor: pointer;
+}
+
+.grid-card:hover {
+    box-shadow: 4px 1px 10px rgba(0,0,0,0.45);
+}
+
+.grid-card p {
+    text-align: center;
+    font-size: 14px;
+}
+
+.grid-btn {
+    color: rgb(141, 138, 138);
+}
+
+@container (max-width: 1000px) {
+    .grid-card p {
+      font-size: clamp(5px,1.4cqi,14px);
+     }      
+}
+
+.flash-contain {
+    container-type: inline-size;
+}
+
+.flash-sales {
+    margin-top: 20px;
+    background-color: white;
+    /* height: 150px; */
+    height: auto;
+    border-radius: 5px;
+}
+
+.time-flash {
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 20px;
+    align-items: center;
+    height:50px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.see {
+    font-size: 13px;
+    margin-right: 25px;
+    margin-top: 10px;
+}
+
+.f-sal {
+    margin-left: 17px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+@container (max-width: 1200px) {
+    .time-flash p {
+        font-size: clamp(5px,3cqi,20px);
+    }
+}
+
+.flash-items{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    /* flex-wrap: wrap;
+    flex: 1; */
+}
+
+.flash-card {
+    background-color:rgb(255, 251, 251);
+    max-width: 20%;
+    margin: 5px 0;
+    border-radius: 5px;
+    /* padding-bottom: 10px ; */
+    position: relative;
+}
+
+.discount {
+    position: absolute;
+    /* background-color:rgba(252, 200, 207, 0.45); */
+    background-color: rgb(248, 227, 227);
+    /* padding: 8px; */
+    max-width: 100%;
+    color: #fd7e14;
+    right: 10px;
+    top: 8px;
+}
+
+
+.flash-card img {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.flash-card p {
+    margin-left: 8px;
+    line-height: 20px;
+    font-size: 1rem;
+}
+
+.price {
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.slash {
+    text-decoration:line-through;
+    font-size: 1rem;
+    color: rgb(77, 76, 76);
+}
+
+.fill {
+    height: 8px;
+    width:93% ;
+    background-color: #fd7e14;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+@container (max-width: 1200px) {
+    .flash-card p {
+      font-size:1.7cqi ;
+      line-height: 1.7cqi;
+    }
+    
+    .discount {
+        font-size: 2cqi;
+    } 
+}
+
+
+
+
+
+
+
+
+
